@@ -16,6 +16,7 @@ import { CustomerComponent } from './customer/customer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormFetchComponent } from './form-fetch/form-fetch.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FormFetchComponent } from './form-fetch/form-fetch.component';
     AppComponent,
     NavComponent,
     CustomerComponent,
-    FormFetchComponent
+    FormFetchComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
